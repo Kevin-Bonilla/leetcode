@@ -41,7 +41,7 @@ Constraints:
 public class BestTimetoBuyandSellStock {
     public int maxProfit(int[] prices) {
         int currentLow = 0;
-        int currentHi = 0;
+        //int currentHi = 0; // not used
         int currentMax = 0;
 
         for (int i = 0; i < prices.length; i++){
